@@ -1,0 +1,95 @@
+
+
+body{font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 0px;
+    background-image: linear-gradient(
+        215deg,
+        rgba(218, 197, 84, 0.8),
+        rgba(124, 192, 147, 0.8)
+      ),
+      url(./form\ background.webp);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;   
+
+}
+
+#name{
+    padding: 8px;
+    margin-bottom: 15px;
+}
+#email{
+    padding: 8px;
+    margin-bottom: 15px;
+}
+#contact{
+    padding: 8px;
+    margin-bottom: 15px;
+
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+label{
+    display: block;
+    margin-top: 5px;
+}
+input,textarea{
+    width: calc(100% - 10px);
+    padding-top: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 800;
+}
+ form{
+    max-width: 500px;
+    margin: auto;
+    background-color:
+    215deg,
+    rgba(196, 179, 86, 0.8),
+    rgba(108, 155, 124, 0.8)
+ }
+
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(175, 144, 64);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    background-color: darkgoldenrod;
+}
+
+#resumeOutput{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color:  rgb(175, 144, 64);
+}
+
+#resumeOutput{
+    color: black;
+    
+}

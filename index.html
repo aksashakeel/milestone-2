@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1><u>Dynamic Resume Builder </h1>
+    <form id="resumeForm">
+
+        <fieldset>
+            <legend><h2>Personal Information</h2></legend>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+
+            <label for="email">Email: </label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+
+            
+            <label for="contact">Contact: </label><br>
+            <input type="text" id="contact" name="contact" placeholder="Enter your contact">
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>Education</h2></legend>
+            <!-- <label for="education">Education</label> -->
+            <textarea id="education" name="education" rows="3" required></textarea><br>
+        </fieldset>
+
+        
+        <fieldset>
+            <legend><h2>Experience</h2></legend>
+            <!-- <label for="experience">Experience</label> -->
+            <textarea id="experience" name="experience" rows="3" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h2>Skills</h2></legend>
+            <textarea id="skills" name="skills" rows="3" required></textarea><br>
+        </fieldset>
+<button type="submit">Generate Resume</button>
+
+<div id="resumeOutput">
+    
+</div>
+<script src="index.js"></script>
+
+    </form>
+</body>
+</html>
